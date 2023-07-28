@@ -19,6 +19,12 @@
     .header-menu-mobile .logo_mobile img{
         height: 60px;
     }
+    .search_delivery{
+        margin: 40px 0;
+    }
+    .search_delivery .search_in{
+        padding: 20px;
+    }
 
 
 }

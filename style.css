@@ -53,7 +53,7 @@ body a{
 }
 @media (min-width: 1200px){
   .container, .container-fluid{
-    margin: 0 310.5px;
+    margin: 0 135px;
     padding: 0 15px;
   }
   .container-fluid {
@@ -206,5 +206,54 @@ color: #FFFFFF;
 }
 .header-menu .main_menu ul li a i {
   padding-left: 8px;
+  font-size: 13px;
+}
+.search_delivery{
+  margin: 60px 87px;
+  background: url(img/background_delivery.png), lightgray 50% / cover no-repeat;
+  background-color: #C5291E !important;
+}
+.search_delivery .search_in{
+  padding: 30px 45px;
+}
+.search_delivery .search_in .title_search h3{
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+.search_delivery .search_in .title_search{
+  margin-bottom: 20px;
+}
+.search_delivery .search_in form{
+  width: 100%;
+    display: flex;
+    position: relative;
+}
+.search_delivery .search_in form input{
+  width: 100%;
+  outline: none;
+  padding: 10px;
+}
+.search_delivery .search_in form .check{
+  height: 100%;
+  align-items: center;
+  display: grid;
+  position: absolute;
+  right: 20px;
+  grid-auto-flow: column;
+  gap: 10px;
+}
+.search_delivery .search_in form .check p{
+  margin: 0;
+  font-size: 14px;
+font-style: normal;
+font-weight: 600;
+color: #C5291E;
+text-transform: uppercase;
+}
+.search_delivery .search_in form .check i{
+  color: #C5291E;
   font-size: 13px;
 }
