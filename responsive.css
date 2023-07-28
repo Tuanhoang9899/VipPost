@@ -25,6 +25,11 @@
     .search_delivery .search_in{
         padding: 20px;
     }
+    .box_service {
+        gap: 15px;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 
 
 }
