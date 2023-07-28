@@ -138,3 +138,73 @@ color: #262E36;
 .header-right .header-right_social .icon a {
   color: #333;
 }
+img{
+  width: 100%;
+}
+.header-menu .menu_head_mb_desktop{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main_menu .nav_bar{
+  width: 100px;
+}
+.menu_head_mb_desktop .main_menu {
+  gap: 35px;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  grid-auto-flow: column;
+  width: 100%;
+  display: grid;
+}
+.header-menu{
+  display: flex;
+  height: 100px;
+  background: #262E36;
+  align-items: center;
+}
+.header-menu .logo-pc img{
+  width: 165px;
+  height: 80px;
+}
+.header-menu .logo-pc {
+  padding-left: 40px;
+}
+.header-menu .main_menu ul{
+  justify-content: center;
+  margin-bottom: 0;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 30px;
+}
+.header-menu .main_menu ul li{
+  list-style: none;
+}
+/* .header-menu .main_menu ul li.menu_item:hover .sub_menu{
+  display: block;
+} */
+.header-menu .main_menu ul li>ul{
+  display: none;
+}
+.header-menu .main_menu ul li.menu_item.active a{
+  color: #C5291E;
+}
+.header-menu .main_menu ul li.menu_item:last-child a{
+  padding: 15px 20px;
+justify-content: center;
+align-items: center;
+background-color: #C5291E;
+}
+.header-menu .main_menu ul li a{
+  font-size: 14px;
+font-style: normal;
+font-weight: 600;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.header-menu .main_menu ul li a i {
+  padding-left: 8px;
+  font-size: 13px;
+}
