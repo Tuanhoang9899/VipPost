@@ -10,6 +10,17 @@ if ($(".banner_home").length) {
     });
 }
 
+    if ($(".box_blog").length) {
+        $(".box_blog").owlCarousel({
+            items: 4,
+            nav: false,
+            dots: true,
+            lazyLoad: true,
+            loop: true,
+            autoHeight:true,
+            margin: 25,
+        });
+    }
 
 
 
