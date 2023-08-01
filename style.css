@@ -126,7 +126,38 @@ body a{
   grid-auto-flow: column;
   align-items: center;
 }
-
+.modal_menu-mobile.show-mobile {
+  transform: translateX(0);
+  transition: .4s;
+}
+.modal_menu-mobile {
+  position: fixed;
+  background: rgba(0,0,0,0);
+  width: 100%;
+  top: 0;
+  height: 100%;
+  transform: translateX(100%);
+  transition: .4s;
+}
+.menu-mobile {
+  padding: 10px;
+  height: 100%;
+  background: #262E36;
+  width: 80%;
+  overflow-y: scroll;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+}
+.menu-mobile .logo-mobile{
+  text-align: center;
+}
+.menu-mobile .logo-mobile img{
+  width: 120px;
+}
+.banner_home{
+  z-index: 0 !important;
+}
 .header-right .header-right_registed a{
   font-size: 14px;
 font-style: normal;
@@ -154,7 +185,7 @@ img{
   align-items: center;
 }
 .main_menu .nav_bar{
-  width: 100px;
+  width: 90px;
 }
 .menu_head_mb_desktop .main_menu {
   gap: 35px;
@@ -167,13 +198,13 @@ img{
 }
 .header-menu{
   display: flex;
-  height: 100px;
+  height: 90px;
   background: #262E36;
   align-items: center;
 }
 .header-menu .logo-pc img{
-  width: 165px;
-  height: 80px;
+  width: 150px;
+  height: 70px;
 }
 .header-menu .logo-pc {
   padding-left: 40px;
@@ -188,6 +219,36 @@ img{
 }
 .header-menu .main_menu ul li{
   list-style: none;
+}
+.header-menu .main_menu ul li.menu_item ul.sub_menu{
+  padding-top: 10px !important;
+  z-index: 9999;
+  padding: 0;
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  background: #262E36;
+}
+.header-menu .main_menu ul li a:hover{
+  color: #C5291E;
+}
+.header-menu .main_menu ul li.menu_item ul.sub_menu li{
+  padding: 10px;
+  border-bottom: 1px solid #42515E;
+}
+.header-menu .main_menu ul li.menu_item ul.sub_menu li a{
+  font-size: 13px;
+}
+.header-menu .main_menu ul li.menu_item ul.sub_menu li:last-child{
+  border-bottom: none;
+}
+.header-menu .main_menu ul li.menu_item:hover > ul.sub_menu{
+  visibility: visible;
+  display: block;
+  opacity: 1;
 }
 /* .header-menu .main_menu ul li.menu_item:hover .sub_menu{
   display: block;
@@ -935,4 +996,35 @@ footer{
 .title_breadcrumb .nav i{
   color: #C5291E;
   font-size: 13px;
+}
+
+#aboutme{
+  margin-top: 120px;
+}
+#aboutme .newsletter {
+  margin: 0 200px;
+}
+#aboutme .newsletter h2{
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  color: #C5291E;
+  text-align: center;
+}
+#aboutme .newsletter p.pra{
+  margin-top: 35px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  color: #13171B;
+}
+.signature .img img{
+  width: 102px;
+  height: 86px;
+}
+.signature span{
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  color: #13171B;
 }

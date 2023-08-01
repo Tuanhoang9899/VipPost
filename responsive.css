@@ -17,7 +17,7 @@
         left: 15px;
     }
     .header-menu-mobile .logo_mobile img{
-        height: 60px;
+        height: 58px;
     }
     .search_delivery{
         margin: 40px 0;
@@ -205,6 +205,18 @@
         padding: 15px 19px;
         color: #FFFFFF;
         background: #C5291E;
+    }
+    #aboutme{
+        margin-top: 80px;
+    }
+    #aboutme .newsletter{
+        margin: 0;
+    }
+    #aboutme .newsletter h2{
+        font-size: 21px;
+    }
+    #aboutme .signature{
+        margin-top: 10px;
     }
 }
 @media (min-width: 769px) { 
