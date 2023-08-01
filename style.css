@@ -675,6 +675,7 @@ footer{
   border-bottom: 1px solid #42515E;
 }
 .footer .footer_top .item_footer h2{
+  line-height: 1.7;
   text-align: start;
   width: 85%;
   font-size: 14px;
@@ -690,10 +691,13 @@ footer{
   font-weight: 700;
 }
 .footer .footer_top .logo img{
+  margin-right: 60px;
   width: 125px;
   height: 60px;
 }
 .footer .footer_top .item_footer {
+  margin: 0 auto;
+  width: 90%;
   row-gap: 16px;
   text-align: center;
   display: grid;
@@ -701,4 +705,118 @@ footer{
 }
 .footer .footer_top .item_footer .logo{
   height: 70px;
+}
+.footer_mid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 0;
+  padding: 40px 0;
+}
+.footer_mid .list_footer_mid{
+  text-align: start;
+
+}
+.footer_mid .list_footer_mid h3{
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  color: #FFF;
+}
+.footer_mid .list_footer_mid hr{
+  margin: 0.5rem 0;
+  z-index: 1;
+  background: #C5291E;
+  transform: skew(155deg);
+  width: 50px;
+  height: 5px;
+  margin-left: 0;
+}
+.footer_mid .list_footer_mid .map{
+  align-items: start;
+  display: grid;
+  margin-top: 30px;
+  color: #fff;
+  gap: 10px;
+  grid-auto-flow: column;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer_mid .list_footer_mid .map i{
+  color: #C5291E;
+  margin-top: 6px;
+}
+.footer_mid .list_footer_mid ul{
+  gap: 10px;
+  margin-top: 30px;
+  padding: 0;
+  display: grid;
+}
+.footer_mid .list_footer_mid ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #B3B3B3;
+}
+.footer_mid .list_footer_mid ul li a i{
+  padding-right: 6px;
+  font-size: 13px;
+  color: #C5291E;
+}
+.footer_mid .list_footer_mid .form_email{
+  margin-top: 30px;
+}
+.footer_mid .list_footer_mid .form_email span{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #B3B3B3;
+}
+.footer_mid .list_footer_mid .form_email form{
+  margin-top: 10px;
+  position: relative;
+}
+.footer_mid .list_footer_mid .form_email form input {
+  width: 100%;
+  padding: 12px 12px;
+  background: no-repeat;
+  border: 1px solid #42515E;
+}
+.footer_mid .list_footer_mid .form_email form input::placeholder{
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  color: #B3B3B3;
+}
+.footer_mid .list_footer_mid .form_email form i{
+  top: 10px;
+  position: absolute;
+  color: #C5291E;
+  font-size: 27px;
+  right: 15px;
+}
+.footer_mid .list_footer_mid .social_footer{
+  margin-top: 30px;
+}
+.footer_mid .list_footer_mid .social_footer h4{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer_mid .list_footer_mid .social_footer .social_item{
+  width: max-content;
+  display: grid;
+  grid-auto-flow: column;
+}
+.footer_mid .list_footer_mid .social_footer .social_item a{
+  color: #B3B3B3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 36px;
+  height: 36px;
 }

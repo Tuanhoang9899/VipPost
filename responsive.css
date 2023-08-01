@@ -30,8 +30,6 @@
         grid-template-columns: repeat(1, 1fr);
 
     }
-
-
 }
 @media (min-width: 769px) { 
     .header-menu-mobile{
