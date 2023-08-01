@@ -190,6 +190,22 @@
         color: #4B5D6B;
         margin-top: 35px;
     }
+    .all_service .title_service .title h2{
+        font-size: 32px;
+    }
+    .all_service .title_service .title{
+        flex-wrap: wrap;
+    }
+    .all_service .title_service .button_view_all{
+        margin: 30px 0 40px 0;
+        justify-content: start;
+        padding: 0;
+    }
+    .all_service .title_service .button_view_all a {
+        padding: 15px 19px;
+        color: #FFFFFF;
+        background: #C5291E;
+    }
 }
 @media (min-width: 769px) { 
     .header-menu-mobile{

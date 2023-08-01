@@ -24,6 +24,7 @@ if ($(".banner_home").length) {
     if (screen.width < 768) {
         $(".about_me .arrow").after($(".about_me .title .intro_title"));
         $(".body_service .arrow").after($(".body_service .title .intro_title"));
+        $(".all_service .arrow").after($(".all_service .title_service .title .button_view_all"));
         $(".criteria .criteria_text .icon_1 img").after($(".about_me .criteria .criteria_text .text .criteria_text_1"));
         $(".criteria .criteria_text .icon_2 img").after($(".about_me .criteria .criteria_text .text .criteria_text_2"));
         $(".criteria .criteria_text .icon_3 img").after($(".about_me .criteria .criteria_text .text .criteria_text_3"));
