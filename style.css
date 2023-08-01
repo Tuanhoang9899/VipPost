@@ -895,3 +895,44 @@ footer{
 .copyright a{
   color: #C5291E;
 }
+.breadcrumb_service{
+  height: 300px;
+  position: relative;
+}
+.body_service {
+  margin-top: 100px;
+}
+.body_service .title .intro_title {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  color: #4B5D6B;
+  padding: 0px 0 0 150px;
+}
+#breadcrumb{
+  background-color: #13171B;
+}
+.title_breadcrumb {
+  position: absolute;
+  top: 33%;
+}
+.title_breadcrumb h2{
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+.title_breadcrumb .nav{
+  gap: 10px;
+  align-items: center;
+}
+.title_breadcrumb .nav a{
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  color: #B3B3B3;
+}
+.title_breadcrumb .nav i{
+  color: #C5291E;
+  font-size: 13px;
+}
