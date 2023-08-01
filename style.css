@@ -733,6 +733,7 @@ footer{
   margin-left: 0;
 }
 .footer_mid .list_footer_mid .map{
+  width: 85%;
   align-items: start;
   display: grid;
   margin-top: 30px;
@@ -819,4 +820,74 @@ footer{
   display: flex;
   width: 36px;
   height: 36px;
+}
+.footer_mid .list_footer_mid .hotline{
+  margin-top: 12px;
+}
+.footer_mid .list_footer_mid .hotline{
+  width: max-content;
+  display: grid;
+  margin-top: 30px;
+  color: #fff;
+  gap: 10px;
+  grid-auto-flow: column;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.footer_mid .list_footer_mid .hotline i{
+  color: #C5291E;
+  margin-top: 6px;
+  font-size: 17px;
+}
+.footer_mid .list_footer_mid .connect_email {
+  width: 75%;
+  border-radius: 6px;
+  border: 1px dashed #4B5D6B;
+  padding: 6px;
+  margin-top: 30px;
+}
+.footer_mid .list_footer_mid .connect_email .wrapper_connect{
+  padding: 15px;
+  border-radius: 4px;
+  background: #1C2328;
+  position: relative;
+}
+.footer_mid .list_footer_mid .connect_email .wrapper_connect .email_mess{
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+.footer_mid .list_footer_mid .connect_email .wrapper_connect .email_name{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #B3B3B3;
+}
+.footer_mid .list_footer_mid .connect_email .wrapper_connect .icon_mail{
+  height: 45px;
+  width: 45px;
+  transform: skew(165deg);
+  top: 17px;
+  right: -25px;
+  position: absolute;
+  background: #C5291E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_mid .list_footer_mid .connect_email .wrapper_connect .icon_mail i{
+  color: #fff;
+  font-size: 20px;
+}
+.copyright{
+  color: #B3B3B3;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #42515E;
+}
+.copyright a{
+  color: #C5291E;
 }
