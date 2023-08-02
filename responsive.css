@@ -263,6 +263,21 @@
     #grow_up{
         padding: 40px 0;
     }
+    .cacl_postage .cp .grid_wg {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .fill_text .form_group_from{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #contact .contact,.fill_text .form_group_contact{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #contact .map .mp {
+        flex-wrap: wrap;
+    }
+    #contact .map .mp .iframe_vp{
+        padding: 0;
+    }
 }
 @media (min-width: 769px) { 
     .header-menu-mobile{
