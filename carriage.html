@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Vip Post</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+          integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+          integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="jquery/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.usebootstrap.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="main.js"></script>
+    <!--#include virtual="header.html" -->
+
+</head>
+
+<body>
+<header>
+
+    <div class="top-bar">
+        <div class="txt-header--left">
+            <div class="mail_topbar">
+                <i class="far fa-envelope"></i>
+                <span class="email">vippost68@gmail.com</span>
+            </div>
+            <span>|</span>
+            <div class="telephone_topbar">
+                <i class="fa-solid fa-phone"></i>
+                <span class="number">
+                        1900 636 126 / 04 3858 1616 / 04 7305 5679
+                    </span>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="menu_d-none">
+                <div class="header-right_registed">
+                    <div class="sigin">
+                        <a href="#">
+                            Đăng nhập
+                        </a>
+                    </div>
+                    <span>/</span>
+                    <div class="sigup">
+                        <a href="#">
+                            Đăng ký đại lý
+                        </a>
+                    </div>
+                </div>
+                <div class="header-right_social">
+                    <div class="facebook icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="mess icon">
+                        <a href="#">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <div class="skype icon">
+                        <a href="#">
+                            <i class="fa-brands fa-skype"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-menu row">
+        <div class="logo-pc col-md-3 col-lg-3 col-sm-12 col-xs-12">
+            <a href="index.html">
+                <img src="img/logo.png" alt="">
+            </a>
+        </div>
+        <div class="menu_head_mb_desktop col-md-9 col-lg-9 col-sm-12 col-xs-12">
+            <div class="main_menu">
+                <ul id="list_menu" class="sf-menu">
+                    <li  class="menu_item active"><a href="index.html"
+                                                     class="link-item custom-item-link lv0">Trang chủ</a></li>
+                    <li  class="menu_item has_c"><a href="aboutme.html"
+                                                    class="link-item custom-item-link lv0">Về chúng tôi
+                        <i class="fas fa-angle-down"></i></a>
+                        <ul class="sub_menu">
+                            <li class="menu_item_child"><a href="">Quá trình phát triển</a></li>
+                            <li class="menu_item_child"><a href="">Thư ngỏ</a></li>
+                            <li class="menu_item_child"><a href="">Triết lý kinh doanh</a></li>
+                        </ul>
+                    </li>
+                    <li  class="menu_item "><a href="service.html"
+                                               class="link-item custom-item-link lv0">Dịch vụ<i class="fas fa-angle-down"></i></a>
+                        <ul class="sub_menu">
+                            <li class="menu_item_child"><a href="carriage.html">Vận tải</a></li>
+                        </ul>
+                    </li>
+                    <li  class="menu_item has_c"><a href="/"
+                                                    class="link-item custom-item-link lv0">Ước tính cước phí<i class="fas fa-angle-down"></i></a>
+                        <ul class="sub_menu">
+                            <li class="menu_item_child"><a href="">abc</a></li>
+                        </ul>
+                    </li>
+                    <li  class="menu_item "><a href="support.html"
+                                               class="link-item custom-item-link lv0">Hỗ trợ</a></li>
+                    <li  class="menu_item has_c"><a href="/"
+                                                    class="link-item custom-item-link lv0">Liên hệ<i class="fas fa-angle-down"></i></a>
+                        <ul class="sub_menu">
+                            <li class="menu_item_child"><a href="">abc</a></li>
+                        </ul>
+                    </li>
+                    <li  class="menu_item last_item has_c"><a href="price.html"
+                                                              class="link-item custom-item-link lv0">Nhận báo giá</a>
+
+                    </li>
+                </ul>
+                <div class="nav_bar">
+                    <a href="#">
+                        <img src="img/nav_bar.png" alt="nav">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="header-menu-mobile">
+        <div class="nav_bar_mobile">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1081_31634)">
+                    <rect x="0.0703125" y="4.6665" width="16" height="1.33333" fill="#262E36"/>
+                    <rect x="0.0703125" y="18" width="16" height="1.33333" fill="#262E36"/>
+                    <rect x="0.0703125" y="11.333" width="24" height="1.33333" fill="#262E36"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_1081_31634">
+                        <rect width="24" height="24" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+        <div class="logo_mobile">
+            <img src="img/img_mobile.png" alt="logo_mobile">
+        </div>
+    </div>
+    </div>
+</header>
+<main id="breadcrumb">
+    <div class="breadcrumb_service">
+        <div class="container">
+            <div class="title_breadcrumb">
+                <h2>
+                    Vận tải
+                </h2>
+                <div class="nav">
+                    <a href="index.html">Trang chủ</a>
+                    <i class="fas fa-angle-double-right"></i>
+                    <a href="javascript:0">Dịch vụ</a>
+                    <i class="fas fa-angle-double-right"></i>
+                    <a href="javascript:0">Vận tải</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div id="carriage" class="container ">
+    <div class="carriage row">
+        <div class="left_column col-lg-8 col-md-8 col-xs-12 col-sm-12">
+            <div class="price_list">
+                <h2>
+                    Bảng giá dịch vụ vận tải
+                </h2>
+                <div class="price_list_pra">
+                    Giá cước dịch vụ chỉ hơn 100,000 VNĐ cho 20 kg hàng hóa (hàng hóa trên 1000 kg, giá cước chỉ tăng
+                    khoảng 1,700 VNĐ – 1,900 VNĐ). Quý khách gửi hàng hóa trọng lượng càng lớn, chi phí vận tải càng
+                    tiết kiệm. Đây là dịch vụ lý tưởng cho Quý khách muốn gửi hàng số lượng lớn với yêu cầu về thời gian
+                    không quá gấp tới các tỉnh/ thành phố trung tâm.
+                    <br>
+                    <br>
+                    Quý khách ở TP.Hồ Chí Minh và các tỉnh lân cận vui
+                    lòng tham khảo bảng giá dịch vụ vận tải tại link sau
+                    <br>
+                    <br>
+                    <span>Bảng giá vận tải áp dụng đối với TP. Hồ Chí
+                    Minh Bình Dương, Đồng Nai, Bà Rịa Vũng Tàu.</span>
+                    <br>
+                    <br>
+                    Dịch vụ vận tải có ưu điểm: vận chuyển hàng số lượng
+                    lớn, chi phí tiết kiệm, thời gian giao hàng chỉ dài hơn dịch vụ chuyển phát nhanh vài ngày. Quý
+                    khách ở phía Bắc muốn trải nghiệm những ưu điểm của dịch vụ, vui lòng xem bảng giá dưới đây
+                    <br>
+                    <br>
+                    <span>Bảng giá
+                    vận tải áp dụng đối với Hà Nội.</span>
+                    <br>
+                    <br>
+                    Giá cước dịch vụ vận tải cho khách hàng ở Miền Trung
+                    <br>
+                    <br>
+                    <span>Bảng giá vận
+                    tải áp dụng đối với Đà Nẵng.</span>
+                    <br>
+                    <br>
+                    Quý khách ở Miền Tây vui lòng xem tại link sau:
+                    <br>
+                    <br>
+                    <span>Bảng giá vận tải áp
+                    dụng đối với Cần Thơ, Vĩnh Long, Tiền Giang, Bến Tre.</span>
+                    *Giá trên chưa bao gồm các loại phụ phí và
+                    thuế giá trị gia tăng 10%
+                    <br>
+                    <br>
+                    Mức thu phụ phí có thể thay đổi theo từng thời điểm <span>(Xem chi tiết)</span>
+                    <br>
+                    <br>
+                    Quý
+                    khách có nhu cầu sử dụng dịch vụ cộng thêm, vui lòng liên hệ VIPPOST qua Hotline: 1900 636 126 để
+                    được tư vấn hoặc tham khảo tại <span> Dịch vụ gia tăng.</span>
+                    <br>
+                    <br>
+                    Trân trọng kính chào.
+                </div>
+            </div>
+            <div class="question">
+                <h2>Các câu hỏi thường gặp</h2>
+                <div class="list_question">
+                    <ul>
+                        <li>
+                            <span class="pra_question">Nội dung câu hỏi hiển thị ở đây. <i class="fas fa-chevron-down"></i></span>
+                            <p class="pra_hide">Nội dung câu trả lời hiển thị ở dưới này. Không giới hạn số dòng tối đa.</p>
+                        </li>
+                        <li>
+                            <span class="pra_question">Nội dung câu hỏi hiển thị ở đây. <i class="fas fa-chevron-down"></i></span>
+                            <p class="pra_hide">Nội dung câu trả lời hiển thị ở dưới này. Không giới hạn số dòng tối đa.</p>
+                        </li>
+                        <li>
+                            <span class="pra_question">Nội dung câu hỏi hiển thị ở đây. <i class="fas fa-chevron-down"></i></span>
+                            <p class="pra_hide">Nội dung câu trả lời hiển thị ở dưới này. Không giới hạn số dòng tối đa.</p>
+                        </li>
+                        <li>
+                            <span class="pra_question">Nội dung câu hỏi hiển thị ở đây. <i class="fas fa-chevron-down"></i></span>
+                            <p class="pra_hide">Nội dung câu trả lời hiển thị ở dưới này. Không giới hạn số dòng tối đa.</p>
+                        </li>
+                        <li>
+                            <span class="pra_question">Nội dung câu hỏi hiển thị ở đây. <i class="fas fa-chevron-down"></i></span>
+                            <p class="pra_hide">Nội dung câu trả lời hiển thị ở dưới này. Không giới hạn số dòng tối đa.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right_column col-lg-4 col-md-4 col-xs-12 col-sm-12">
+            <div class="sidebar_top">
+                <h3>Các dịch vụ</h3>
+                <hr>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Chuyển phát nhanh
+                            <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Chuyển phát nhanh
+                            <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Chuyển phát nhanh
+                            <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Chuyển phát nhanh
+                            <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Chuyển phát nhanh
+                            <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Chuyển phát nhanh
+                            <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Chuyển phát nhanh
+                            <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Chuyển phát nhanh
+                            <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar_bottom">
+                <h3>
+                    Liên hệ ngay
+                </h3>
+                <hr>
+                <ul>
+                    <li>
+                            <span class="mail">
+                                <i class="far fa-envelope"></i>
+                                <span>vippost48@gmail.com</span>
+                            </span>
+                    </li>
+                    <li>
+                            <span class="number">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>1900 636 126</span>
+                            </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="item_footer">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <h2>CÔNG TY CỔ PHẦN CHUYỂN PHÁT NHANH VIPPOST</h2>
+                </div>
+                <div class="item_footer">
+                    <div class="icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="29.5" stroke="#C5291E" stroke-dasharray="4 4"/>
+                            <g clip-path="url(#clip0_855_1230)">
+                                <path d="M41.7397 29.9948C41.7293 28.776 40.073 27.8906 38.0834 27.8906H33.8856C33.3021 27.8906 33.0834 27.7969 32.7397 27.401L25.7397 19.7656C25.5209 19.5156 25.2501 19.3906 24.9376 19.3906H23.7292C23.4584 19.3906 23.3022 19.6302 23.4376 19.9219L27.0418 27.8906L21.7501 28.4948L19.8647 25.0365C19.7292 24.776 19.5001 24.6615 19.1563 24.6615H18.7084C18.4376 24.6615 18.2605 24.8385 18.2605 25.1094V34.8802C18.2605 35.151 18.4376 35.3177 18.7084 35.3177H19.1563C19.5001 35.3177 19.7292 35.2032 19.8647 34.9532L21.7501 31.4948L27.0418 32.099L23.4376 40.0677C23.3022 40.349 23.4584 40.5989 23.7292 40.5989H24.9376C25.2501 40.5989 25.5209 40.4636 25.7397 40.224L32.7397 32.5781C33.0834 32.1927 33.3021 32.099 33.8856 32.099H38.0834C40.073 32.099 41.7293 31.2031 41.7397 29.9948Z" fill="#C5291E"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_855_1230">
+                                    <rect width="23.4792" height="21.2188" fill="white" transform="translate(18.2605 19.3906)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                    <h3>Chuyển phát trong nước và quốc tế</h3>
+                </div>
+                <div class="item_footer">
+                    <div class="icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="29.5" stroke="#C5291E" stroke-dasharray="4 4"/>
+                            <g clip-path="url(#clip0_855_1230)">
+                                <path d="M18.6641 34.6749C18.6641 36.1893 19.4552 36.9804 20.978 36.9804H21.5565C21.5395 36.8699 21.531 36.7508 21.531 36.6316C21.531 34.7345 23.0793 33.1863 24.9765 33.1863C26.8736 33.1863 28.4134 34.7345 28.4134 36.6316C28.4134 36.7508 28.4049 36.8699 28.3879 36.9804H33.807C33.79 36.8614 33.7815 36.7423 33.7815 36.6232C33.7815 35.7554 34.0707 34.9643 34.6152 34.3857V23.5134C34.6152 21.9991 33.8241 21.1994 32.3012 21.1994H25.8357C26.176 21.9055 26.3632 22.6967 26.3632 23.5219C26.3632 26.5165 23.8705 29.0091 20.8759 29.0091C20.0933 29.0091 19.3446 28.839 18.6641 28.5412V34.6749ZM35.7807 25.8954V33.5435C36.189 33.3138 36.6741 33.1777 37.1844 33.1777C39.0816 33.1777 40.6639 34.726 40.6639 36.6232C40.6639 36.7423 40.6554 36.8614 40.6384 36.9804H41.1573C42.6546 36.9804 43.4373 36.1808 43.4373 34.6749V31.6719C43.4373 30.8382 43.3012 30.4468 42.8333 29.9194L39.9409 26.6526C39.4389 26.0911 38.8774 25.8954 38.0437 25.8954H35.7807ZM37.9842 31.3231C37.5077 31.3231 37.2099 31.0339 37.2099 30.549V27.4693H37.9586C38.3499 27.4693 38.6052 27.5374 38.937 27.9032L41.5317 30.8127C41.6678 30.9658 41.7613 31.1274 41.7954 31.3231H37.9842ZM24.9765 39.0818C26.3376 39.0818 27.4266 37.9843 27.4266 36.6316C27.4266 35.279 26.3291 34.1815 24.9765 34.1815C23.6238 34.1815 22.5264 35.279 22.5264 36.6316C22.5264 37.9758 23.6238 39.0818 24.9765 39.0818ZM37.2185 39.0818C38.5797 39.0818 39.6686 37.9843 39.6686 36.6232C39.6686 35.2705 38.5711 34.173 37.2185 34.173C35.8659 34.173 34.7684 35.2705 34.7684 36.6232C34.7684 37.9758 35.8659 39.0818 37.2185 39.0818ZM20.8845 27.8436C23.224 27.8436 25.2062 25.8869 25.2062 23.5219C25.2062 21.1484 23.258 19.2002 20.8845 19.2002C18.5194 19.2002 16.5627 21.1569 16.5627 23.5219C16.5627 25.904 18.5194 27.8436 20.8845 27.8436ZM18.8682 24.1855C18.5705 24.1855 18.3408 23.9473 18.3408 23.658C18.3408 23.3773 18.579 23.1391 18.8682 23.1391H20.3995V21.0122C20.3995 20.723 20.6377 20.5018 20.927 20.5018C21.2162 20.5018 21.4544 20.723 21.4544 21.0122V23.658C21.4544 23.9558 21.2247 24.1855 20.927 24.1855H18.8682Z" fill="#C5291E"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_855_1230">
+                                    <rect width="26.8746" height="21.6" fill="white" transform="translate(16.5627 19.2002)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                    <h3>Theo dõi vận đơn chính xác</h3>
+                </div>
+                <div class="item_footer">
+                    <div class="icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="29.5" stroke="#C5291E" stroke-dasharray="4 4"/>
+                            <g clip-path="url(#clip0_855_1230)">
+                                <path d="M21.3438 32.057C21.3438 35.8591 23.3854 37.2549 29.3021 40.5883C29.5729 40.734 29.8333 40.7965 30 40.7965C30.1667 40.7965 30.4375 40.734 30.6979 40.5883C36.6249 37.2653 38.6563 35.8591 38.6563 32.057V24.0882C38.6563 22.9945 38.1875 22.6507 37.3021 22.2757C36.0729 21.7653 32.1042 20.3382 30.875 19.9111C30.5937 19.8174 30.2917 19.7549 30 19.7549C29.7083 19.7549 29.4063 19.8382 29.1354 19.9111C27.9063 20.2653 23.9271 21.7757 22.6979 22.2757C21.8229 22.6403 21.3438 22.9945 21.3438 24.0882V32.057ZM30.2187 38.8695V21.4632C30.2708 21.4736 30.3333 21.4945 30.4167 21.5257C31.9896 22.1507 35.0416 23.2549 36.6563 23.807C36.9375 23.9111 37 24.057 37 24.4111V31.6715C37 34.8903 35.4583 35.734 30.6458 38.6612C30.4896 38.7653 30.3437 38.8383 30.2187 38.8695Z" fill="#C5291E"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_855_1230">
+                                    <rect width="17.3125" height="21.5937" fill="white" transform="translate(21.3438 19.2031)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>An toàn & đảm bảo</h3>
+                </div>
+            </div>
+            <div class="footer_mid">
+                <div class="contact list_footer_mid">
+                    <h3> Liên hệ </h3>
+                    <hr>
+                    <div class="map">
+                        <i class="fa-regular fa-map"></i>
+                        <span>224 Hoàng Ngân (mặt sau), Trung Hòa, Cầu Giấy, Hà Nội</span>
+                    </div>
+                    <div class="hotline">
+                        <i class="fas fa-phone"></i>
+                        <span>1900 636 126</span>
+                    </div>
+                    <div class="connect_email">
+                        <div class="wrapper_connect">
+                                        <span class="email_mess" >
+                                    Để lại lời nhắn?
+                                </span>
+                            <span class="email_name">vippost68@gmail.com</span>
+                            <div class="icon_mail">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service list_footer_mid">
+                    <h3>Dịch vụ</h3>
+                    <hr>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                    </ul>
+                </div>
+                <div class="support list_footer_mid">
+                    <h3>Hỗ trợ</h3>
+                    <hr>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                        <li><a href="#"><i class="fas fa-angle-double-right"></i> Chuyển phát nhanh</a></li>
+                    </ul>
+                </div>
+                <div class="mail list_footer_mid">
+                    <h3>Đăng ký nhận tin</h3>
+                    <hr>
+                    <div class="form_email">
+                        <span>Nhập địa chỉ email của bạn để nhận những thông tin ưu đãi mới nhất</span>
+                        <form action="">
+                            <input type="email" placeholder="Nhập email">
+                            <i class="fa-sharp fa-solid fa-location-arrow"></i>
+                        </form>
+                    </div>
+                    <div class="social_footer">
+                        <h4>Mạng xã hội</h4>
+                        <div class="social_item">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-skype"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <span>© Copyright 2023. All rights reserved. <a href="#">vippost.com.vn</a></span>
+    </div>
+    <div class="modal_menu-mobile">
+        <div class="menu-mobile">
+            <div class="logo-mobile">
+                <a href="index.html">
+                    <img src="img/img_mobile.png" alt="logo_mobile">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="/">Về chúng tôi</a></li>
+                <li><a href="/">Dịch vụ</a></li>
+                <li><a href="/">Ước tính cước phí</a></li>
+                <li><a href="/">Hỗ trợ</a></li>
+
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

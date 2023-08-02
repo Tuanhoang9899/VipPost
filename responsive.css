@@ -218,6 +218,15 @@
     #aboutme .signature{
         margin-top: 10px;
     }
+    .carriage{
+        margin-top: 80px;
+    }
+    .carriage .left_column .price_list{
+        width: 100%;
+    }
+    .carriage .right_column .sidebar_top ul{
+        margin-top: 25px;
+    }
 }
 @media (min-width: 769px) { 
     .header-menu-mobile{

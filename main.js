@@ -40,6 +40,10 @@ if ($(".banner_home").length) {
         $(this).removeClass("show-mobile");
         $("body").css("overflow", "visible");
     });
+    $(".carriage .left_column .list_question ul li").click(function() {
+        $(this).toggleClass("active");
+        $(this).find("p.pra_hide").slideToggle();
+    });
 
 
 
