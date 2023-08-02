@@ -227,6 +227,42 @@
     .carriage .right_column .sidebar_top ul{
         margin-top: 25px;
     }
+    .blog_category h3.tp_title{
+        text-align: start;
+    }
+    .blog_category h2{
+        text-align: start;
+    }
+    .blog_category .arrow {
+        margin: 15px 0;
+    }
+    #grow_up h2{
+        font-size: 30px;
+    }
+    .progresss .dashed{
+        display: none;
+    }
+    .progresss .progress_item .mid{
+        position: unset;
+        transform: unset;
+        order: 1;
+    }
+    .progresss .progress_item .right{
+        order: 2;
+    }
+    .progresss .progress_item .left{
+        order: 3;
+    }
+    .progresss .progress_item{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .progresss .progress_item .right .date{
+        justify-content: center;
+    }
+    #grow_up{
+        padding: 40px 0;
+    }
 }
 @media (min-width: 769px) { 
     .header-menu-mobile{
